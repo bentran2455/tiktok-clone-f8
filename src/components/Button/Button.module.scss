@@ -1,0 +1,55 @@
+.buttonWrapper {
+  border-radius: 4px;
+  background: transparent;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}
+
+.primary {
+  padding: 9px 16px;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 700;
+  &:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+      var(--primary-color);
+  }
+}
+
+.outlined {
+  color: var(--primary-color);
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 25px;
+  width: 100%;
+  &:hover {
+    background-color: rgba(254, 44, 85, 0.06);
+  }
+}
+
+.text {
+  padding: 0px 16px;
+  border: 1px solid rgba(22, 24, 35, 0.12);
+  border-radius: 2px;
+  background: rgb(255, 255, 255);
+  color: black;
+  font-size: 1.8rem;
+}
+
+.select {
+  background-color: unset;
+  gap: 1rem;
+  padding: 10px 8px 10px 16px;
+  justify-content: start;
+  font-size: 1.8rem;
+  &:hover {
+    background: rgba(22, 24, 35, 0.03);
+  }
+}

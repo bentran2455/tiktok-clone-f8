@@ -1,0 +1,64 @@
+@import "normalize.css";
+
+:root {
+  --primary-color: #fe2c55;
+  --text-color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "TikTokFont";
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-rendering: optimizeSpeed;
+  font-size: 1.6rem;
+  line-height: 1.5;
+
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: TikTokDisplayFont;
+  src: url("/assets/fonts/TikTokDisplayFont-Bold.woff2");
+  font-weight: 800;
+}
+@font-face {
+  font-family: TikTokDisplayFont;
+  src: url("/assets/fonts/TikTokDisplayFont-Semibold.woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: TikTokFont;
+  src: url("/assets/fonts/TikTokFont-Bold.woff2");
+  font-weight: 800;
+}
+@font-face {
+  font-family: TikTokFont;
+  src: url("/assets/fonts/TikTokFont-Semibold.woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: TikTokFont;
+  src: url("/assets/fonts/TikTokFont-Regular.woff2");
+  font-weight: 400;
+}
+button,
+input {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+a[href] {
+  text-decoration: none;
+  color: var(--text-color);
+}

@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  padding: 6px 16px;
+  cursor: pointer;
+  &:hover {
+    background: rgba(22, 24, 35, 0.03);
+  }
+}
+
+.accounts {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+.info {
+  flex: 1;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.blueTick {
+  font-size: 1.4rem;
+  color: rgb(32, 213, 236);
+  margin-left: 4px;
+}

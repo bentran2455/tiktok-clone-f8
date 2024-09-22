@@ -1,0 +1,27 @@
+.menuList {
+  min-width: 223px;
+  width: 223px;
+  padding: 8px 0px;
+}
+
+.menuHeader {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.headerTitle {
+  position: absolute;
+  line-height: 2.1rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.backBtn {
+  width: 20px;
+  height: 20px;
+  margin-left: 28px;
+  background: transparent;
+}
